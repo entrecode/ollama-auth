@@ -26,4 +26,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ghcr.io/g1ibby/ollama-auth:latest
+        tags: ghcr.io/${{ github.repository }}:latest
